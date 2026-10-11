@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+# Regenerated on every run
+mamaearth.db
+analysis/output/
+requirements.txt
+run.sh
+
+# Course brief files (submission must be repo-only)
+*.docx
+Capstone_Guidelines_*.html

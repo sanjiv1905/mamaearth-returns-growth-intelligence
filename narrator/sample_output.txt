@@ -1,0 +1,8 @@
+Situation:
+Our cleaned total revenue stands at ₹97,358.30, compared to raw total revenue of ₹99,860.20 before data cleaning. This difference of ₹2,501.90 is explained entirely by duplicate (double-submitted) orders that have been removed to establish an accurate reporting baseline.
+
+Complication:
+Aggregate metrics mask severe operational exposure across payment modes, geographies, and monthly performance. Looking at return rate by payment method, CARD records 14.7% and UPI records 18.9%, whereas COD surges to 44.4%. The highest-risk segment is COD orders in Tier-2 cities, which exhibit a return rate of 54.5%. Additionally, raw sales trends mislead commercial planning: January 2026 initially looked like ₹29,582.10, but normalized to ₹11,637.10 once two bulk orders are excluded. As a result, the true peak revenue month is March 2026 at ₹20,318.90, rather than the outlier-distorted January 2026 volume.
+
+Resolution:
+Operations must implement targeted risk-mitigation workflows, focusing verification controls and strict dispatch rules on COD orders in Tier-2 cities to tackle their 54.5% return rate. Finance and marketing should deploy targeted customer incentives to shift checkout volume from COD (44.4% return rate) toward UPI (18.9% return rate) and CARD (14.7% return rate). Finally, regional budgeting, inventory provisioning, and capacity modeling must align strictly with the cleaned total revenue baseline of ₹97,358.30 and the true peak run-rate established in March 2026 at ₹20,318.90.

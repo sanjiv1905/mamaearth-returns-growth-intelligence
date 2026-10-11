@@ -1,0 +1,10 @@
+Situation:
+Across January–June 2026, Mamaearth's verified net revenue is ₹97,358.30. The raw order table reported ₹99,860.20, but ₹2,501.90 of that came from double-submitted duplicate orders, which have been removed. Revenue genuinely peaked in March 2026 at ₹20,318.90.
+
+Complication:
+Returns are concentrated in Cash-on-Delivery: COD orders come back at 44.4%, versus CARD at 14.7% and UPI at 18.9%. The blended COD rate still hides the worst pocket — COD orders in Tier-2 cities return at 54.5%, more than one in two. The raw monthly trend is also misleading: January 2026 appears to lead at ₹29,582.10, but only because two bulk orders landed that month; without them it is ₹11,637.10.
+
+Resolution:
+1. Ops: target COD in Tier-2 cities first — add order confirmation calls, prepaid-conversion incentives, or a COD fee for repeat returners.
+2. Finance: plan and forecast on the cleaned revenue base, and fix the double-submit bug at checkout so duplicates stop inflating reported sales.
+3. Growth: benchmark campaigns against March 2026 as the true peak, and report bulk orders separately so they do not distort monthly trends.
